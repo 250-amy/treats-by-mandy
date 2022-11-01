@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: ;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(24, 24, 24, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+h1 {
+  font-family: 'Ms Madi', cursive;
+  font-size: 8em;
+  color: white;
+  line-height: 6rem;
+  text-shadow: 4px 4px 0px #B3965F;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1em;
+  font-weight: 500;
+  text-align: right;
+  color: white;
+}
+
+h3 {
+  line-height: 2em;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#app {
+  max-width: 1280px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
