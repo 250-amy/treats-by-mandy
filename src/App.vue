@@ -3,27 +3,27 @@ import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 const weddings = [
-  { id: '1', url: './src/assets/wedding.jpg' },
-  { id: '2', url: './src/assets/wedding-2.jpg' },
-  { id: '3', url: './src/assets/wedding-3.jpg' },
-  { id: '4', url: './src/assets/wedding-4.jpg' },
-  { id: '5', url: './src/assets/wedding-5.jpg' },
+  { id: '1', url: '/wedding.jpg' },
+  { id: '2', url: '/wedding-2.jpg' },
+  { id: '3', url: '/wedding-3.jpg' },
+  { id: '4', url: '/wedding-4.jpg' },
+  { id: '5', url: '/wedding-5.jpg' },
 ]
 
 const birthdays = [
-  { id: '1', url: './src/assets/birthday.jpg' },
-  { id: '2', url: './src/assets/birthday-2.jpg' },
-  { id: '3', url: './src/assets/birthday-3.jpg' },
-  { id: '4', url: './src/assets/birthday-4.jpg' },
-  { id: '5', url: './src/assets/birthday-5.jpg' },
+  { id: '1', url: '/birthday.jpg' },
+  { id: '2', url: '/birthday-2.jpg' },
+  { id: '3', url: '/birthday-3.jpg' },
+  { id: '4', url: '/birthday-4.jpg' },
+  { id: '5', url: '/birthday-5.jpg' },
 ]
 
 const kids = [
-  { id: '1', url: './src/assets/kids.jpg' },
-  { id: '2', url: './src/assets/kids-2.jpg' },
-  { id: '3', url: './src/assets/kids-3.jpg' },
-  { id: '4', url: './src/assets/kids-4.jpg' },
-  { id: '5', url: './src/assets/kids-5.jpg' },
+  { id: '1', url: '/kids.jpg' },
+  { id: '2', url: '/kids-2.jpg' },
+  { id: '3', url: '/kids-3.jpg' },
+  { id: '4', url: '/kids-4.jpg' },
+  { id: '5', url: '/kids-5.jpg' },
 ]
 
 </script>
@@ -111,7 +111,7 @@ const kids = [
     <div class="mt-auto max-w-[400px] md:max-w-[600px] mr-[176px]"> 
       <div class="p-10 bg-white mr-[10px]">
         <div class="ml-[-70px] md:ml-[-100px] bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-orange-900 via-amber-100 to-orange-900">
-          <img src="src/assets/main.jpg" alt="main section wedding cake image" class="drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)] p-1 md:max-h-[600px]">
+          <img src="/main.jpg" alt="main section wedding cake image" class="drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)] p-1 md:max-h-[600px]">
         </div>
       </div>
     </div>
@@ -243,11 +243,11 @@ const kids = [
           <p>“flawless experience”</p>
         </h4>
         <div class="mb-4 flex flex-wrap">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
         </div>
         <p class="text-sm md:text-[16px]">I had such a wonderful and flawless experience with Mandy. Excellent communication and extremely talented! The wedding cake was gorgeous and delicious!</p>
         <p class="text-sm md:text-[16px] text-right mr-8">— Pri M</p>
@@ -258,11 +258,11 @@ const kids = [
           <p>“Highly recommend”</p>
         </h4>
         <div class="mb-4 flex flex-wrap">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
         </div>
         <p class="text-sm md:text-[16px]">Treats by Mandy has become a staple in our house for celebrations, specially birthdays.  Cupcakes or cake, chocolate or vanilla, we're always impressed with the creativity she puts into her cakes without sacrificing flavour! </p>
         <p class="text-sm md:text-[16px] text-right mr-8">— Eric M</p>
@@ -273,11 +273,11 @@ const kids = [
           <p>“absolutely delicious”</p>
         </h4>
         <div class="mb-4 flex flex-wrap">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
-            <img src="src/assets/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
+            <img src="/star.png">
         </div>
         <p class="text-sm md:text-[16px]">Mandy’s imagination and creativity bring your cake and dessert dreams to life. She works with you to ensure your order is exactly as you envisioned- extravagant, simple, elegant, or wacky!</p>
         <p class="text-sm md:text-[16px] text-right mr-8">— Agata A</p>
@@ -290,7 +290,7 @@ const kids = [
 <!-- Beginning of instagram section -->
 <div class="instagram flex bg-white w-screen my-20 px-48">
   <div class="logo">
-    <img src="src/assets/logo.png" width=300>
+    <img src="/logo.png" width=300>
   </div>
 </div>
 
