@@ -106,7 +106,7 @@ const kids = [
     <div class="flex items-center w-full justify-center md:pr-16">
       <div class="flex flex-col max-w-md mr-8 lg:mr-0">
         <h3 class="text-2xl md:text-4xl mb-2 mt-3 md:mt-0 text-center md:text-start">Weddings</h3>
-        <span class="text-[#66444C] text-sm md:text-lg lg:text-xl pb-8 md:pb-0">Information about wedding cakes goes here. Information about wedding cakes goes here. Information about wedding cakes goes here.  Information about wedding cakes goes here. Information about wedding cakes goes here.</span>
+        <span class="text-[#66444C] text-sm md:text-lg lg:text-xl pb-8 md:pb-0 text-center md:text-start">Information about wedding cakes goes here. Information about wedding cakes goes here. Information about wedding cakes goes here.  Information about wedding cakes goes here. Information about wedding cakes goes here.</span>
       </div>
     </div>
 
@@ -119,7 +119,7 @@ const kids = [
   <div class="flex items-center w-full justify-center md:pl-16 pt-8 md:pt-0">
       <div class="flex flex-col max-w-md mx-4 lg:ml-0">
         <h3 class="text-2xl md:text-4xl mb-2 text-center md:text-start">Birthdays</h3>
-        <span class="text-[#405248] text-sm md:text-lg lg:text-xl pb-3 md:pb-0">Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. </span>
+        <span class="text-[#405248] text-sm md:text-lg lg:text-xl pb-3 md:pb-0 text-center md:text-start">Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. </span>
       </div>
     </div>
 
@@ -172,7 +172,7 @@ const kids = [
     <div class="flex items-center w-full justify-center md:pr-16">
       <div class="flex flex-col max-w-md mr-8 lg:mr-0">
         <h3 class="text-2xl md:text-4xl mb-2 mt-3 md:mt-0 text-center md:text-start">Kids'&nbsp;Parties</h3>
-        <span class="text-[#2C3737] text-sm md:text-lg lg:text-xl pb-8 md:pb-0">Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here.</span>
+        <span class="text-[#2C3737] text-sm md:text-lg lg:text-xl pb-8 md:pb-0 text-center md:text-start">Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here.</span>
       </div>
     </div>
 
