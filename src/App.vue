@@ -36,7 +36,7 @@ const kids = [
 <!-- Beginning of hero section -->
   <div class="w-screen lg:h-screen flex flex-col items-center md:flex-row justify-center space-x-10 lg:space-x-48 bg-gradient-to-tl from-[#97B1B1] via-[#C6D4D4] to-[#E0E8E8]">
     <div class='bg-[url("/gold-dots.png")] w-auto bg-left-top flex bg-no-repeat'>
-    <div class="max-w-[500px] lg:my-auto flex items-center">
+    <div class="max-w-[490px] lg:my-auto flex items-center">
       <div class="ml-[50px] lg:ml-[20px] mt-16 mr-[80px]">
         <div class="max-w-[250px] lg:max-w-[450px]">
           <h1 class="lg:text-[13em] lg:leading-[10rem]">Treats</h1>

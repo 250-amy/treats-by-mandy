@@ -54,6 +54,10 @@ h4 {
   max-width: 1280px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
