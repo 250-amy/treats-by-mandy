@@ -48,12 +48,12 @@ const kids = [
           <a href="#contact"><button class="my-4 px-8 py-1 text-lg lg:text-xl uppercase bg-white hover:bg-[#597373] hover:text-white ease-in-out duration-300 text-gray-700 font-medium tracking-wider border-2 border-[#597373] rounded-3xl shadow">Order Now!</button></a>
           <ul class="flex space-x-3">
             <li>
-              <a href="https://www.facebook.com/treatsbymandy" type="button" class="rounded-full border-2 border-[#597373] text-[#597373] leading-normal uppercase hover:bg-white hover:bg-opacity-25 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+              <a href="https://www.facebook.com/treatsbymandy" type="button" class="rounded-full border-2 border-[#597373] text-[#597373] leading-normal uppercase hover:bg-white hover:bg-opacity-25 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 flex justify-center">
                 <svg aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="facebook-f"
-                class="w-2 h-full mx-auto"
+                class="w-2"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
@@ -66,12 +66,12 @@ const kids = [
             </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/treats.by.mandy/" type="button" class="rounded-full border-2 border-[#597373] text-[#597373] leading-normal uppercase hover:bg-white hover:bg-opacity-25 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+              <a href="https://www.instagram.com/treats.by.mandy/" type="button" class="rounded-full border-2 border-[#597373] text-[#597373] leading-normal uppercase hover:bg-white hover:bg-opacity-25 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 flex justify-center">
                 <svg aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="instagram"
-                  class="w-3 h-full mx-auto"
+                  class="w-3"
                   role="img"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 448 512"
@@ -84,12 +84,12 @@ const kids = [
             </a>
             </li>
           <li>
-            <a href="#!" type="button" class="rounded-full border-2 border-[#597373] text-[#597373] leading-normal uppercase hover:bg-white hover:bg-opacity-25 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+            <a href="#!" type="button" class="rounded-full border-2 border-[#597373] text-[#597373] leading-normal uppercase hover:bg-white hover:bg-opacity-25 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 flex justify-center">
               <svg aria-hidden="true"
               focusable="false"
               data-prefix="fab"
                 data-icon="google"
-                class="w-3 h-full mx-auto"
+                class="w-3"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 488 512"
