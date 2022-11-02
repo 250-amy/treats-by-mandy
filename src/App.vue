@@ -81,8 +81,8 @@ const kids = [
 </div>
 
 <!-- Beginning of wedding section -->
-  <div class="wedding flex justify-center items-center max-h-[400px] my-32 md:my-56 space-x-8 lg:space-x-32 bg-gradient-to-r from-[#EBC8D0] via-[#ECD5D5] to-[#EDD8D8] w-screen">
-    <div class="ml-16 pl-8 max-w-[300px] md:max-w-[500px]"> 
+  <div class="wedding flex flex-col items-center md:flex-row justify-center max-h-[500px] md:max-h-[400px] my-32 md:my-56 space-x-8 lg:space-x-32 bg-gradient-to-r from-[#EBC8D0] via-[#ECD5D5] to-[#EDD8D8] w-screen">
+    <div class="md:ml-16 md:pl-8 max-w-[270px] md:max-w-[500px]"> 
       <div class="p-10 bg-white shadow-lg">
         <div class="max-w-[300px] md:max-w-[400px]">
 <carousel :items-to-show="1">
@@ -103,10 +103,10 @@ const kids = [
       </div>
     </div>
 
-    <div class="right flex items-center pr-16">
+    <div class="flex items-center w-full justify-center md:pr-16">
       <div class="flex flex-col max-w-md mr-8 lg:mr-0">
-        <h3 class="text-2xl md:text-4xl mb-2">Weddings</h3>
-        <span class="text-[#66444C] text-sm md:text-lg lg:text-xl">Information about wedding cakes goes here. Information about wedding cakes goes here. Information about wedding cakes goes here.  Information about wedding cakes goes here. Information about wedding cakes goes here.</span>
+        <h3 class="text-2xl md:text-4xl mb-2 mt-3 md:mt-0 text-center md:text-start">Weddings</h3>
+        <span class="text-[#66444C] text-sm md:text-lg lg:text-xl pb-8 md:pb-0">Information about wedding cakes goes here. Information about wedding cakes goes here. Information about wedding cakes goes here.  Information about wedding cakes goes here. Information about wedding cakes goes here.</span>
       </div>
     </div>
 
@@ -114,15 +114,16 @@ const kids = [
 
 <!-- Beginning of birthdays section -->
 
-<div class="birthdays flex justify-center items-center max-h-[400px] my-32 md:my-56 space-x-8 lg:space-x-32 bg-gradient-to-l from-[#BCD2C6] via-[#CCDCD3] to-[#E1EBE5] w-screen">
-  <div class="left flex items-center pl-16">
-      <div class="flex flex-col max-w-md ml-8 lg:ml-0">
-        <h3 class="text-2xl md:text-4xl mb-2">Birthdays</h3>
-        <span class="text-[#405248] text-sm md:text-lg lg:text-xl">Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. </span>
+<div class="birthdays flex flex-col items-center md:flex-row justify-center max-h-[500px] md:max-h-[400px] my-32 md:my-56 md:space-x-8 lg:space-x-32 bg-gradient-to-l from-[#BCD2C6] via-[#CCDCD3] to-[#E1EBE5] w-screen">
+
+  <div class="flex items-center w-full justify-center md:pl-16 pt-8 md:pt-0">
+      <div class="flex flex-col max-w-md mx-4 lg:ml-0">
+        <h3 class="text-2xl md:text-4xl mb-2 text-center md:text-start">Birthdays</h3>
+        <span class="text-[#405248] text-sm md:text-lg lg:text-xl pb-3 md:pb-0">Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. Information about birthday cakes goes here. </span>
       </div>
     </div>
 
-  <div class="pr-8 mr-16 max-w-[300px] md:max-w-[500px]"> 
+  <div class="md:pr-8 md:mr-16 max-w-[270px] md:max-w-[500px]"> 
       <div class="p-10 bg-white shadow-lg">
         <div class="max-w-[300px] md:max-w-[400px]">
 <carousel :items-to-show="1">
@@ -146,8 +147,8 @@ const kids = [
 </div>
 
 <!-- Beginning of kids section -->
-<div class="kids flex justify-center items-center max-h-[400px] md:my-48 space-x-8 lg:space-x-32 bg-gradient-to-r from-[#97B1B1] via-[#A5BBBB] to-[#B4C7C7] w-screen">
-    <div class="ml-16 pl-8 max-w-[300px] md:max-w-[500px]"> 
+<div class="kids flex flex-col items-center md:flex-row justify-center max-h-[500px] md:max-h-[400px] md:my-48 space-x-8 lg:space-x-32 bg-gradient-to-r from-[#97B1B1] via-[#A5BBBB] to-[#B4C7C7] w-screen">
+    <div class="md:ml-16 md:pl-8 max-w-[270px] md:max-w-[500px]"> 
       <div class="p-10 bg-white shadow-lg">
         <div class="max-w-[300px] md:max-w-[400px]">
 <carousel :items-to-show="1">
@@ -168,17 +169,17 @@ const kids = [
       </div>
     </div>
 
-    <div class="right flex items-center pr-16">
+    <div class="flex items-center w-full justify-center md:pr-16">
       <div class="flex flex-col max-w-md mr-8 lg:mr-0">
-        <h3 class="text-2xl md:text-4xl mb-2">Kids'&nbsp;Parties</h3>
-        <span class="text-[#2C3737] text-sm md:text-lg lg:text-xl">Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here.</span>
+        <h3 class="text-2xl md:text-4xl mb-2 mt-3 md:mt-0 text-center md:text-start">Kids'&nbsp;Parties</h3>
+        <span class="text-[#2C3737] text-sm md:text-lg lg:text-xl pb-8 md:pb-0">Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here. Information about kid's cakes goes here.</span>
       </div>
     </div>
 
   </div>
 
 <!-- Beginning of more section -->
-<div class="more flex justify-center space-x-10 lg:space-x-20 w-screen my-20 md:my-32 px-8 md:px-12 lg:px-20">
+<div class="more flex flex-col md:flex-row justify-center items-center space-y-8 lg:space-x-20 w-screen my-8 md:my-32 px-8 md:px-12 lg:px-20">
   <div class="w-72 md:w-72 text-center">
     <h4 class="text-xl md:text-2xl lg:text-3xl">AND MORE</h4>
     <p class="text-sm md:text-lg">Text here</p>
@@ -196,10 +197,10 @@ const kids = [
 <!-- Beginning of testimonials section -->
 <div class="more bg-gradient-to-l from-[#CBBB81] via-[#D6C99B] to-[#DFD5B2] w-screen">
   <div class="flex justify-center items-center">
-    <div class="flex flex-col items-start my-10 p-10">
+    <div class="flex flex-col items-start md:my-10 p-8 md:p-10">
     <h3 class="text-2xl md:text-4xl mb-6">What people are saying</h3>
-    <div class="flex justify-center space-x-4 md:space-x-6 lg:space-x-8">
-      <div class="bg-white rounded-xl shadow-lg p-6 w-52 md:w-60 lg:w-80">
+    <div class="flex flex-col md:flex-row justify-center md:space-x-6 lg:space-x-8">
+      <div class="bg-white rounded-xl shadow-lg p-6 w-80 md:w-60 lg:w-80 mb-4 md:mb-0">
         <h4 class="mb-2 font-bold md:text-xl">
           <p>“flawless experience”</p>
         </h4>
@@ -214,7 +215,7 @@ const kids = [
         <p class="text-sm md:text-[16px] text-right mr-8">— Pri M</p>
       </div>
 
-      <div class="bg-white rounded-xl shadow-lg p-6 w-52 md:w-60 lg:w-80">
+      <div class="bg-white rounded-xl shadow-lg p-6 w-80 md:w-60 lg:w-80 mb-4 md:mb-0">
         <h4 class="mb-2 font-bold md:text-xl">
           <p>“Highly recommend”</p>
         </h4>
@@ -229,7 +230,7 @@ const kids = [
         <p class="text-sm md:text-[16px] text-right mr-8">— Eric M</p>
       </div>
 
-      <div class="bg-white rounded-xl shadow-lg p-6 w-52 md:w-60 lg:w-80">
+      <div class="bg-white rounded-xl shadow-lg p-6 w-80 md:w-60 lg:w-80">
         <h4 class="mb-2 font-bold md:text-xl">
           <p>“absolutely delicious”</p>
         </h4>
@@ -249,17 +250,20 @@ const kids = [
 </div>
 
 <!-- Beginning of instagram section -->
-<div class="instagram flex bg-white w-screen my-20 px-48">
-  <div class="logo">
-    <img src="/logo.png" width=300>
+<div class="instagram flex flex-col md:flex-row items-center justify-center bg-white w-screen my-20 px-48 md:space-x-20">
+  <div class="logo mb-10 md:mb-0">
+    <img src="/logo.png" class="max-w-[300px]">
+  </div>
+  <div class="w-72 md:w-72 text-center">
+    <p class="text-sm md:text-lg">This is where we could embed your instagram feed</p>
   </div>
 </div>
 
 <!-- Beginning of contact section -->
 <div class="contact bg-gradient-to-bl from-[#97B1B1] via-[#C6D4D4] to-[#E0E8E8]  w-screen">
-<div class="flex items-center min-h-screen">
-  <div class="container mx-auto">
-    <div class="max-w-4xl mx-auto my-10 p-10">
+<div class="flex justify-center">
+  <div class="container flex justify-center">
+    <div class="max-w-4xl my-8 px-10">
       <div class="">
         <h3 id="contact" class="text-2xl md:text-4xl mb-6">Let's get in touch</h3>
         <p class="mb-10">Have questions? Want to place an order? Message me on Facebook or Instagram, or complete the following form. I will get back to you ASAP!</p>
